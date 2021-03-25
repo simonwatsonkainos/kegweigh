@@ -1,0 +1,24 @@
+{
+  "name": "kegweigh-server",
+  "version": "1.0.0",
+  "description": "Kegweigh server for clients to report current keg level for display",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/simonwatsonkainos/kegweigh.git"
+  },
+  "author": "Simon Watson",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/simonwatsonkainos/kegweigh/issues"
+  },
+  "homepage": "https://github.com/simonwatsonkainos/kegweigh#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "nunjucks": "^3.2.2"
+  }
+}
